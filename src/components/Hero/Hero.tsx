@@ -14,15 +14,15 @@ export function Hero(){
           <h1>Alexandre Bulcão</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>I'm FullStack Developer</h3>
+          <h3>and I'm FullStack Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">I'm from Brazil (BR), I live and work as a Web Developer in Porto, Portugal (PT). Graduated from Unip - Universidade Paulista in (Systems Analysis and Development), passionate about technology. I've been studying a lot about ReactJS, React-Native, AngularJS and VUE, taking advantage of everything Javascript has to offer..</p>
+          <p className="small-resume">I'm from Brazil (BR), I live and work as FullStack Developer in Porto, Portugal (PT). Graduated from Unip - Universidade Paulista in (Systems Analysis and Development), passionate about technology. I've been studying a lot about ReactJS, React-Native, AngularJS and VUE, taking advantage of everything Javascript has to offer..</p>
         </ScrollAnimation>
 
           <ScrollAnimation animateIn="fadeInUp" delay={0.8*1000}>
             <BrowserRouter>
-              <NavHashLink smooth to="#contato" className="button">Contato</NavHashLink>
+              <NavHashLink smooth to="#contato" className="button">Contact</NavHashLink>
             </BrowserRouter>
           </ScrollAnimation>
       </div>
